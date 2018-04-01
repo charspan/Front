@@ -5,6 +5,7 @@
 // 	i++
 // }
 
+// 一下代码可以体验nodejs的同步异步问题
 var c = 0
 
 function printIt() {
