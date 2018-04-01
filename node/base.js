@@ -34,13 +34,8 @@ url.format(
   path: '/video/6710?from=ss&course=node',
   href: 'http://www.imooc.com:8080/video/6710?from=ss&course=node#floor' })
 
-
 // http://nodejs.cn/api/querystring.html
-
 
 querystring.escape('哈哈')
 
-
 querystring.unescape('%E5%93%88%E5%93%88')
-
-
