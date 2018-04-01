@@ -1,14 +1,25 @@
+// 事件回调
+/**
+ * 
+ * @param {*} something 
+ */
 function learn(something) {
 	console.log(something)
 }
 
-function we(callback, something) {
+function call(callback, something) {
 	something += ' is cool'
 	callback(something)
 }
 
-we(learn,'Nodejs')
+/**
+ * 回调具名函数
+ */
+call(learn,'Nodejs')
 
-we(function(something) {
+/**
+ * 回调匿名函数
+ */
+call(function(something) {
 	console.log(something)
 }, 'Java')
